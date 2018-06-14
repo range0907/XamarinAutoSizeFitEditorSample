@@ -3,9 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutSizeFitEditor", "AutSizeFitEditor\AutSizeFitEditor\AutSizeFitEditor.csproj", "{0FBA4CC5-C937-4E94-9679-F5A102381FF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutSizeFitEditor", "AutSizeFitEditor\AutSizeFitEditor\AutSizeFitEditor.csproj", "{0FBA4CC5-C937-4E94-9679-F5A102381FF6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutSizeFitEditor.Android", "AutSizeFitEditor\AutSizeFitEditor.Android\AutSizeFitEditor.Android.csproj", "{F7CA561B-99E0-4741-BB0A-E53F2FB3C29A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0FBA4CC5-C937-4E94-9679-F5A102381FF6} = {0FBA4CC5-C937-4E94-9679-F5A102381FF6}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutSizeFitEditor.iOS", "AutSizeFitEditor\AutSizeFitEditor.iOS\AutSizeFitEditor.iOS.csproj", "{BC13F401-9DBC-425E-9969-F46368725CA6}"
 EndProject

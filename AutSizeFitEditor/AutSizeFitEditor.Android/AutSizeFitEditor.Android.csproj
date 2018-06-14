@@ -45,6 +45,7 @@
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
     <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
     <PlatformTarget>AnyCPU</PlatformTarget>
+    <AndroidSupportedAbis>armeabi-v7a;x86</AndroidSupportedAbis>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -105,7 +106,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AutSizeFitEditor\AutSizeFitEditor.csproj">
-      <Project>{A682884C-CB44-4A89-B752-27BB634E0ABE}</Project>
+      <Project>{0fba4cc5-c937-4e94-9679-f5a102381ff6}</Project>
       <Name>AutSizeFitEditor</Name>
     </ProjectReference>
   </ItemGroup>

@@ -57,3 +57,7 @@ Xamarin.Form で高さを可変にできる Editor コントロールのサン�
 # メモ
 
 - 気づいたことをここにどんどん書いていく
+  - アセンブリ名を変更するのは気をつけないと
+  - INSTALL_FAILED_NO_MATCHING_ABIS: Failed to extract native libraries, res=-113 が出たとき
+    - Android オプションの詳細設定で Supported architectures に x86 入れてみるとか
+  - ライブラリの参照(プロジェクトとかも)は切れたら直せばいい
